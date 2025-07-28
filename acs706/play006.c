@@ -8,7 +8,7 @@ int main(){
     }
 
     int maxfreq = 0;
-    int mode = -1;
+    int mode;
     for(i=0;i<10;i++){
         int freq = 0 ;
         for(j=0;j<10;j++){
