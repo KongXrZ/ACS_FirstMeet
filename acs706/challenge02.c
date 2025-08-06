@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main(){
     int i=0,count=0,menu,cup,cups=0,n=0;
-    int nmenu[10],ncup[10];
+    int nmenu[100],ncup[100];
+
     while(1){
         scanf("%d",&menu);
         
@@ -33,7 +34,9 @@ int main(){
         cups+=ncup[i];
     }
 
-    if (total >= 300){
+    if(total >= 300 && cups>=10){
+        discount = total*0.15;
+    }else if (total >= 300){
         discount = total*0.05;
     }else if (cups>=10){
         discount = total*0.10;
