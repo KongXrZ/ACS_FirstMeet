@@ -20,7 +20,7 @@ total_cup = sum(cup_lst)
 
 if total_price >= 300:
   discount = total_price * 0.05
-elif total_cup >= 10:
+if total_cup >= 10:
   discount = total_price * 0.1
 
 total_price -= discount
