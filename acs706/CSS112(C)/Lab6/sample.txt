@@ -1,0 +1,7 @@
+Alice 20 3.75
+Bob 21 3.12
+Charlie 22 3.60
+Hello world message line
+123 456 789
+12.5 67.8 90.12
+A B C
