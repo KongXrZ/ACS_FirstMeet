@@ -1,0 +1,255 @@
+{
+  "version": 1,
+  "testCases": [
+    {
+      "input": "1\n60000 5\n",
+      "output": "Mission 1 -> Best: Research 5 | Petroleum: 1162 kg (2 tanks), Liquid Oxy: 1162 kg (1 tanks)\n",
+      "isSample": true
+    },
+    {
+      "input": "1\n100000 5\n",
+      "output": "Mission 1 -> Best: Research 5 | Petroleum: 1941 kg (3 tanks), Liquid Oxy: 1941 kg (2 tanks)\n",
+      "isSample": true
+    },
+    {
+      "input": "1\n120000 2\n",
+      "output": "Mission 1 -> Best: Research 2 | Petroleum: 2289 kg (3 tanks), Liquid Oxy: 2289 kg (2 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "2\n53788 3\n75370 2\n",
+      "output": "Mission 1 -> Best: Research 3 | Petroleum: 462 kg (1 tanks), Liquid Oxy: 462 kg (1 tanks)\nMission 2 -> Best: Research 2 | Petroleum: 643 kg (1 tanks), Liquid Oxy: 643 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "3\n62556 1\n20699 3\n16820 2\n",
+      "output": "Mission 1 -> Best: Research 1 | Petroleum: 534 kg (1 tanks), Liquid Oxy: 534 kg (1 tanks)\nMission 2 -> Best: Research 3 | Petroleum: 183 kg (1 tanks), Liquid Oxy: 183 kg (1 tanks)\nMission 3 -> Best: Research 2 | Petroleum: 149 kg (1 tanks), Liquid Oxy: 149 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "2\n55005 5\n42178 5\n",
+      "output": "Mission 1 -> Best: Research 5 | Petroleum: 475 kg (1 tanks), Liquid Oxy: 475 kg (1 tanks)\nMission 2 -> Best: Research 5 | Petroleum: 367 kg (1 tanks), Liquid Oxy: 367 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "1\n10637 1\n",
+      "output": "Mission 1 -> Best: Research 1 | Petroleum: 96 kg (1 tanks), Liquid Oxy: 96 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "2\n27482 4\n86555 2\n",
+      "output": "Mission 1 -> Best: Research 4 | Petroleum: 241 kg (1 tanks), Liquid Oxy: 241 kg (1 tanks)\nMission 2 -> Best: Research 2 | Petroleum: 738 kg (1 tanks), Liquid Oxy: 738 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "1\n34022 2\n",
+      "output": "Mission 1 -> Best: Research 2 | Petroleum: 294 kg (1 tanks), Liquid Oxy: 294 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "3\n11767 1\n91611 5\n10727 3\n",
+      "output": "Mission 1 -> Best: Research 1 | Petroleum: 106 kg (1 tanks), Liquid Oxy: 106 kg (1 tanks)\nMission 2 -> Best: Research 5 | Petroleum: 785 kg (1 tanks), Liquid Oxy: 785 kg (1 tanks)\nMission 3 -> Best: Research 3 | Petroleum: 99 kg (1 tanks), Liquid Oxy: 99 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "3\n23340 5\n88636 4\n48242 0\n",
+      "output": "Mission 1 -> Best: Research 5 | Petroleum: 208 kg (1 tanks), Liquid Oxy: 208 kg (1 tanks)\nMission 2 -> Best: Research 4 | Petroleum: 758 kg (1 tanks), Liquid Oxy: 758 kg (1 tanks)\nMission 3 -> Best: Research 0 | Petroleum: 412 kg (1 tanks), Liquid Oxy: 412 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "1\n41313 5\n",
+      "output": "Mission 1 -> Best: Research 5 | Petroleum: 360 kg (1 tanks), Liquid Oxy: 360 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "1\n29897 2\n",
+      "output": "Mission 1 -> Best: Research 2 | Petroleum: 259 kg (1 tanks), Liquid Oxy: 259 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "3\n89696 1\n54971 5\n80546 1\n",
+      "output": "Mission 1 -> Best: Research 1 | Petroleum: 763 kg (1 tanks), Liquid Oxy: 763 kg (1 tanks)\nMission 2 -> Best: Research 5 | Petroleum: 475 kg (1 tanks), Liquid Oxy: 475 kg (1 tanks)\nMission 3 -> Best: Research 1 | Petroleum: 686 kg (1 tanks), Liquid Oxy: 686 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "2\n41002 5\n31146 1\n",
+      "output": "Mission 1 -> Best: Research 5 | Petroleum: 357 kg (1 tanks), Liquid Oxy: 357 kg (1 tanks)\nMission 2 -> Best: Research 1 | Petroleum: 269 kg (1 tanks), Liquid Oxy: 269 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "2\n62931 4\n21338 5\n",
+      "output": "Mission 1 -> Best: Research 4 | Petroleum: 541 kg (1 tanks), Liquid Oxy: 541 kg (1 tanks)\nMission 2 -> Best: Research 5 | Petroleum: 191 kg (1 tanks), Liquid Oxy: 191 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "1\n75605 5\n",
+      "output": "Mission 1 -> Best: Research 5 | Petroleum: 650 kg (1 tanks), Liquid Oxy: 650 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "2\n99160 1\n67646 3\n",
+      "output": "Mission 1 -> Best: Research 1 | Petroleum: 843 kg (1 tanks), Liquid Oxy: 843 kg (1 tanks)\nMission 2 -> Best: Research 3 | Petroleum: 579 kg (1 tanks), Liquid Oxy: 579 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "2\n98859 2\n21935 1\n",
+      "output": "Mission 1 -> Best: Research 2 | Petroleum: 842 kg (1 tanks), Liquid Oxy: 842 kg (1 tanks)\nMission 2 -> Best: Research 1 | Petroleum: 191 kg (1 tanks), Liquid Oxy: 191 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "2\n45836 3\n45191 4\n",
+      "output": "Mission 1 -> Best: Research 3 | Petroleum: 395 kg (1 tanks), Liquid Oxy: 395 kg (1 tanks)\nMission 2 -> Best: Research 4 | Petroleum: 391 kg (1 tanks), Liquid Oxy: 391 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "2\n88670 2\n76389 3\n",
+      "output": "Mission 1 -> Best: Research 2 | Petroleum: 756 kg (1 tanks), Liquid Oxy: 756 kg (1 tanks)\nMission 2 -> Best: Research 3 | Petroleum: 653 kg (1 tanks), Liquid Oxy: 653 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "2\n38674 1\n77597 2\n",
+      "output": "Mission 1 -> Best: Research 1 | Petroleum: 332 kg (1 tanks), Liquid Oxy: 332 kg (1 tanks)\nMission 2 -> Best: Research 2 | Petroleum: 662 kg (1 tanks), Liquid Oxy: 662 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "3\n29738 3\n22554 1\n57548 0\n",
+      "output": "Mission 1 -> Best: Research 3 | Petroleum: 259 kg (1 tanks), Liquid Oxy: 259 kg (1 tanks)\nMission 2 -> Best: Research 1 | Petroleum: 196 kg (1 tanks), Liquid Oxy: 196 kg (1 tanks)\nMission 3 -> Best: Research 0 | Petroleum: 490 kg (1 tanks), Liquid Oxy: 490 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "1\n46829 4\n",
+      "output": "Mission 1 -> Best: Research 4 | Petroleum: 405 kg (1 tanks), Liquid Oxy: 405 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "1\n66561 1\n",
+      "output": "Mission 1 -> Best: Research 1 | Petroleum: 567 kg (1 tanks), Liquid Oxy: 567 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "2\n94452 1\n49997 3\n",
+      "output": "Mission 1 -> Best: Research 1 | Petroleum: 803 kg (1 tanks), Liquid Oxy: 803 kg (1 tanks)\nMission 2 -> Best: Research 3 | Petroleum: 430 kg (1 tanks), Liquid Oxy: 430 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "1\n98231 2\n",
+      "output": "Mission 1 -> Best: Research 2 | Petroleum: 837 kg (1 tanks), Liquid Oxy: 837 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "1\n74296 4\n",
+      "output": "Mission 1 -> Best: Research 4 | Petroleum: 637 kg (1 tanks), Liquid Oxy: 637 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "2\n71978 3\n91573 3\n",
+      "output": "Mission 1 -> Best: Research 3 | Petroleum: 616 kg (1 tanks), Liquid Oxy: 616 kg (1 tanks)\nMission 2 -> Best: Research 3 | Petroleum: 782 kg (1 tanks), Liquid Oxy: 782 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "3\n67968 0\n89637 4\n96326 2\n",
+      "output": "Mission 1 -> Best: Research 0 | Petroleum: 578 kg (1 tanks), Liquid Oxy: 578 kg (1 tanks)\nMission 2 -> Best: Research 4 | Petroleum: 767 kg (1 tanks), Liquid Oxy: 767 kg (1 tanks)\nMission 3 -> Best: Research 2 | Petroleum: 820 kg (1 tanks), Liquid Oxy: 820 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "2\n69674 3\n41727 5\n",
+      "output": "Mission 1 -> Best: Research 3 | Petroleum: 596 kg (1 tanks), Liquid Oxy: 596 kg (1 tanks)\nMission 2 -> Best: Research 5 | Petroleum: 363 kg (1 tanks), Liquid Oxy: 363 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "3\n52542 1\n65105 1\n40309 1\n",
+      "output": "Mission 1 -> Best: Research 1 | Petroleum: 449 kg (1 tanks), Liquid Oxy: 449 kg (1 tanks)\nMission 2 -> Best: Research 1 | Petroleum: 555 kg (1 tanks), Liquid Oxy: 555 kg (1 tanks)\nMission 3 -> Best: Research 1 | Petroleum: 346 kg (1 tanks), Liquid Oxy: 346 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "1\n87022 2\n",
+      "output": "Mission 1 -> Best: Research 2 | Petroleum: 742 kg (1 tanks), Liquid Oxy: 742 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "1\n17749 2\n",
+      "output": "Mission 1 -> Best: Research 2 | Petroleum: 157 kg (1 tanks), Liquid Oxy: 157 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "1\n72366 0\n",
+      "output": "Mission 1 -> Best: Research 0 | Petroleum: 615 kg (1 tanks), Liquid Oxy: 615 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "1\n1140781 1\n",
+      "output": "Mission 1 -> Best: Research 1 | Petroleum: 9931 kg (12 tanks), Liquid Oxy: 9931 kg (6 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "1\n1132402 0\n",
+      "output": "Mission 1 -> Best: Research 0 | Petroleum: 9848 kg (11 tanks), Liquid Oxy: 9848 kg (6 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "3\n4553 1\n2175297 0\n3280 3\n",
+      "output": "Mission 1 -> Best: Research 1 | Petroleum: 45 kg (1 tanks), Liquid Oxy: 45 kg (1 tanks)\nMission 2 -> Out of range\nMission 3 -> Best: Research 3 | Petroleum: 36 kg (1 tanks), Liquid Oxy: 36 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "3\n2481490 3\n1981045 0\n0 5\n",
+      "output": "Mission 1 -> Out of range\nMission 2 -> Out of range\nMission 3 -> Best: Research 5 | Petroleum: 11 kg (1 tanks), Liquid Oxy: 11 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "3\n1116945 4\n496 1\n0 5\n",
+      "output": "Mission 1 -> Best: Research 4 | Petroleum: 9741 kg (11 tanks), Liquid Oxy: 9741 kg (6 tanks)\nMission 2 -> Best: Research 1 | Petroleum: 11 kg (1 tanks), Liquid Oxy: 11 kg (1 tanks)\nMission 3 -> Best: Research 5 | Petroleum: 11 kg (1 tanks), Liquid Oxy: 11 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "2\n0 0\n2309 1\n",
+      "output": "Mission 1 -> Best: Research 0 | Petroleum: 6 kg (1 tanks), Liquid Oxy: 6 kg (1 tanks)\nMission 2 -> Best: Research 1 | Petroleum: 26 kg (1 tanks), Liquid Oxy: 26 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "1\n67676767 0\n",
+      "output": "Mission 1 -> Out of range\n",
+      "isSample": true
+    },
+    {
+      "input": "2\n1939370 3\n2160 5\n",
+      "output": "Mission 1 -> Out of range\nMission 2 -> Best: Research 5 | Petroleum: 29 kg (1 tanks), Liquid Oxy: 29 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "1\n0 4\n",
+      "output": "Mission 1 -> Best: Research 4 | Petroleum: 10 kg (1 tanks), Liquid Oxy: 10 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "1\n1102250 0\n",
+      "output": "Mission 1 -> Best: Research 0 | Petroleum: 9577 kg (11 tanks), Liquid Oxy: 9577 kg (6 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "1\n3060 5\n",
+      "output": "Mission 1 -> Best: Research 5 | Petroleum: 37 kg (1 tanks), Liquid Oxy: 37 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "3\n1109462 1\n0 4\n0 3\n",
+      "output": "Mission 1 -> Best: Research 1 | Petroleum: 9649 kg (11 tanks), Liquid Oxy: 9649 kg (6 tanks)\nMission 2 -> Best: Research 4 | Petroleum: 10 kg (1 tanks), Liquid Oxy: 10 kg (1 tanks)\nMission 3 -> Best: Research 3 | Petroleum: 9 kg (1 tanks), Liquid Oxy: 9 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "2\n1123690 3\n3008 0\n",
+      "output": "Mission 1 -> Best: Research 3 | Petroleum: 9793 kg (11 tanks), Liquid Oxy: 9793 kg (6 tanks)\nMission 2 -> Best: Research 0 | Petroleum: 31 kg (1 tanks), Liquid Oxy: 31 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "2\n1754175 4\n0 2\n",
+      "output": "Mission 1 -> Out of range\nMission 2 -> Best: Research 2 | Petroleum: 8 kg (1 tanks), Liquid Oxy: 8 kg (1 tanks)\n",
+      "isSample": false
+    },
+    {
+      "input": "3\n1950715 4\n2140 1\n1114736 3\n",
+      "output": "Mission 1 -> Out of range\nMission 2 -> Best: Research 1 | Petroleum: 25 kg (1 tanks), Liquid Oxy: 25 kg (1 tanks)\nMission 3 -> Best: Research 3 | Petroleum: 9713 kg (11 tanks), Liquid Oxy: 9713 kg (6 tanks)\n",
+      "isSample": false
+    }
+  ]
+}
