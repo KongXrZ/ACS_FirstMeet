@@ -156,7 +156,13 @@ thead th {
 
 /* TODO Task 1: write your selector and declarations here */
 
+a[href^="https"] {
+  color: red;
+}
 
+a[href^="https"]::after {
+  content: " ↗";
+}
 
 
 /* --------------------------------------------------------------------------
@@ -181,6 +187,9 @@ thead th {
 /* TODO Task 2: write your selector and declarations here */
 
 
+tbody tr:nth-child(odd){
+  background: #f3f1ec
+}
 
 
 /* --------------------------------------------------------------------------
@@ -212,6 +221,9 @@ article h2 {
 /* TODO Task 3: write a selector that beats the rule above, no !important */
 
 
+article h2.featured {
+  color: green;
+}
 
 /* --------------------------------------------------------------------------
    TASK 4 — select with a combinator (adjacent sibling +)
@@ -232,6 +244,9 @@ article h2 {
 
 /* TODO Task 4: write your selector and declarations here */
 
+article h3 + p {
+  font-weight: bold;  
+}
 
 
 /* --------------------------------------------------------------------------
@@ -254,3 +269,7 @@ article h2 {
 
 /* TODO Task 5: write ONE selector that propagates via inheritance */
 
+article {
+  color: #333;
+  font-family: Georgia, serif;
+}
